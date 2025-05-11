@@ -1,0 +1,9 @@
+    services:
+       db:
+         image: postgres:13
+         environment:
+           POSTGRES_USER: postgres
+           POSTGRES_PASSWORD: 1.idontknow
+           POSTGRES_DB: calendso
+         ports:
+           - "5450:5450"
